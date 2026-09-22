@@ -1,17 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Requisitos
+verificar se tem instalado:
+ Node.js =+22, npx (já instala junto com o node) e git
+ ```bash
+node -v
+npx -v
+git -v
+ ```
+## Baixar projeto do github
+git clone <repositorio_url>
+
+## Instalar dependencias
+````bash
+npm install
+````
 ## Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
